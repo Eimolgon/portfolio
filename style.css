@@ -106,7 +106,6 @@ h1, h2, h3 {
 footer {
     text-align: center;
     padding: 10px;
-    position: relative; /* Change to relative to prevent overlapping */
     bottom: 60px; /* Space above the footer */
     background-color: #2b2b2b; /* Darker footer background */
 }
