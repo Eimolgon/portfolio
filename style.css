@@ -1,0 +1,113 @@
+body {
+    background-color: #1e1e1e; /* Dark background */
+    color: #e1e1e1; /* Light grey text */
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 60px; /* Space for command line */
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative; /* Position relative for child elements */
+}
+
+h1, h2, h3 {
+    color: #66d9ef; /* Cyan for headers */
+    border-bottom: 1px solid #66d9ef; /* Cyan border for headers */
+    padding-bottom: 5px;
+}
+
+.tab {
+    text-decoration: none;
+    color: #f8f8f2; /* Light color for links */
+    padding: 10px;
+    border: 1px solid #f8f8f2; /* Border color */
+    margin-right: 10px;
+}
+
+.tab:hover {
+    background-color: #66d9ef; /* Light cyan on hover */
+    color: #1e1e1e; /* Dark background for readability */
+}
+
+.home-button {
+    position: absolute; /* Positioning the home button */
+    top: 20px;
+    right: 20px;
+    text-decoration: none;
+    color: #f8f8f2; /* Light color for home button */
+    border: 1px solid #f8f8f2; /* Same color as link */
+    padding: 10px;
+}
+
+.home-button:hover {
+    background-color: #66d9ef; /* Light cyan on hover */
+    color: #1e1e1e; /* Dark background for readability */
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between; /* Space between content and lateral index */
+}
+
+.lateral-index {
+    background-color: #333; /* Dark background for index */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.lateral-index h3 {
+    color: #66d9ef; /* Cyan for lateral index header */
+}
+
+.lateral-index ul {
+    list-style-type: none; /* Remove bullets from list */
+    padding: 0;
+}
+
+.lateral-index li a {
+    color: #f8f8f2; /* Light color for index links */
+    text-decoration: none;
+}
+
+.lateral-index li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.blog-index li a {
+    background-color: #f8f8f2; /* Bright background for links */
+    color: #1e1e1e; /* Dark text for contrast */
+    padding: 5px 10px; /* Padding around links */
+    text-decoration: none; /* No underline */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.command-line {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333; /* Dark background for command line */
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Center the input field */
+}
+
+.command-line input {
+    width: 80%; /* Input field width */
+    padding: 10px;
+    background-color: #444; /* Darker background for input */
+    color: #f8f8f2; /* Light text for readability */
+    border: 1px solid #f8f8f2; /* Border color same as text */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Change to relative to prevent overlapping */
+    bottom: 60px; /* Space above the footer */
+    background-color: #2b2b2b; /* Darker footer background */
+}
+
